@@ -13,7 +13,6 @@ function groupAnagrams(strs) {
   }
   console.log(Object.values(res))
   return Object.values(res)
-  // console.log(count)
 }
-const strs = ['act', 'pots', 'tops', 'cat', 'stop', 'hat']
-groupAnagrams(strs)
+
+module.exports = groupAnagrams
