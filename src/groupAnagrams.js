@@ -11,7 +11,6 @@ function groupAnagrams(strs) {
 
     res[count.join(',')].push(s)
   }
-  console.log(Object.values(res))
   return Object.values(res)
 }
 
