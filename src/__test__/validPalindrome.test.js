@@ -1,5 +1,5 @@
-const { expect } = require('@jest/globals')
-const validPalindrome = require('../validPalindrome')
+import { expect } from '@jest/globals'
+import validPalindrome from '../validPalindrome'
 
 test('valid palindrome returns true', () => {
   const input = 'Was it a car or a cat I saw?'

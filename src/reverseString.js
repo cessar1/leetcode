@@ -14,4 +14,4 @@ function reverseString(s) {
   console.log(s)
 }
 
-module.exports = reverseString
+export default reverseString

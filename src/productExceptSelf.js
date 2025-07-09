@@ -21,4 +21,4 @@ function productExceptSelf(nums) {
   return res
 }
 
-module.exports = productExceptSelf
+export default productExceptSelf

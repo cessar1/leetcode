@@ -14,4 +14,4 @@ function groupAnagrams(strs) {
   return Object.values(res)
 }
 
-module.exports = groupAnagrams
+export default groupAnagrams

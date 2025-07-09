@@ -1,4 +1,5 @@
-const reverseString = require('../reverseString')
+import { expect } from '@jest/globals'
+import reverseString from '../reverseString'
 
 test('reverseString', () => {
   const input = ['n', 'e', 'e', 't']

@@ -1,4 +1,5 @@
-const groupAnagrams = require('../groupAnagrams')
+import { expect } from '@jest/globals'
+import groupAnagrams from '../groupAnagrams'
 
 test('Group Anagrams', () => {
   const input = ['act', 'pots', 'tops', 'cat', 'stop', 'hat']

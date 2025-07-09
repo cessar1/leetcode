@@ -20,4 +20,4 @@ function topKFrequentElements(nums, k) {
   }
 }
 
-module.exports = topKFrequentElements
+export default topKFrequentElements

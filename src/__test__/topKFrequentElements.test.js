@@ -1,4 +1,5 @@
-const topKFrequentElements = require('../topKFrequentElements')
+import { expect } from '@jest/globals'
+import topKFrequentElements from '../topKFrequentElements'
 
 test('topKFrequentElements', () => {
   const inputArray = [1, 2, 1, 3, 1, 4, 2]
